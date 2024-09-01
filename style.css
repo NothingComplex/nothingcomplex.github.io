@@ -1,0 +1,60 @@
+#auto-audio {
+    display: none;
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #bebebe;
+color: #000000;
+text-align: center;
+padding: 20px;
+margin: 0;
+}
+.container {
+max-width: 1000px;
+margin: 0 auto;
+background: url('backgroundwater.jpg') no-repeat center center;
+background-size: cover;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+h1 {
+color: #007a52;
+margin: 20px 0;
+font-size: 2.5em;
+font-family: 'Comic Sans MS';
+}
+img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+margin: 20px 0;
+}
+button {
+padding: 10px 20px;
+font-size: 16px;
+color: white;
+background-color: #00277a;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+margin: 10px;
+transition: background-color 0.1s;
+}
+button:hover {
+background-color: #00163f;
+}
+#status {
+margin-top: 20px;
+font-size: 1.2em;
+font-family: 'Cooper Black';
+color: #00277a;
+}
+audio {
+margin-top: 20px;
+}
+.text-section {
+margin: 20px 0;
+font-size: 1.2em;
+color: #333;
+}
